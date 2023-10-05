@@ -1,18 +1,20 @@
 {
   "name": "contactbook-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Du an contactbook cua toi",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "The Tam",
+  "author": "Nhut Truong Le",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.20"
   }
 }
